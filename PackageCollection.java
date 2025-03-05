@@ -63,11 +63,11 @@ Note that if you pass a roads several times, you need to count it into the answe
      public static void main(String[] args) {
          int[] packages1 = {1, 0, 0, 0, 0, 1};
          int[][] roads1 = {{0, 1}, {1, 2}, {2, 3}, {3, 4}, {4, 5}};
-         System.out.println(minRoadsToCollectPackages(packages1, roads1)); // Output: 2
+         System.out.println(minRoadsToCollectPackages(packages1, roads1)); // Output: 10
          
          int[] packages2 = {0, 0, 0, 1, 1, 0, 0, 1};
          int[][] roads2 = {{0, 1}, {0, 2}, {1, 3}, {1, 4}, {2, 5}, {5, 6}, {5, 7}};
-         System.out.println(minRoadsToCollectPackages(packages2, roads2)); // Output: 2
+         System.out.println(minRoadsToCollectPackages(packages2, roads2)); // Output: 12
      }
  }
  
